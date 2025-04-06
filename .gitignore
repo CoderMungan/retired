@@ -1,0 +1,72 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Eğer medya ve statik dosyaları repoya eklemek istemiyorsan:
+media/
+staticfiles/
+
+# Virtualenv #
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+*.env
+
+# PyCharm #
+.idea/
+*.iml
+
+# VS Code #
+.vscode/
+
+# mypy, pyright, pylint, pyre type checker cache #
+.mypy_cache/
+.pyright/
+.pyre/
+.pytype/
+
+# Coverage reports #
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest #
+.cache
+.pytest_cache/
+
+# Jupyter Notebook #
+.ipynb_checkpoints
+
+# macOS #
+.DS_Store
+
+# Windows #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files #
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Translations #
+*.mo
+
+# Gunicorn/PID files (deploy ortamları için) #
+gunicorn.pid
